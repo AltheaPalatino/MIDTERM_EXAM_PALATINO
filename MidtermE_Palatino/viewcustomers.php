@@ -15,6 +15,7 @@
 </style>
 <body>
 	<a href="index.php">Return to home</a>
+	<a href="login.php"> Back to login</a>
 
 	<?php 
 	$getStoreInfoByID = getStoreInfoByID($pdo, $_GET['store_id']); 

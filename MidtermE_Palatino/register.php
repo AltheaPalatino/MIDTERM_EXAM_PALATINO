@@ -23,6 +23,7 @@ require_once 'core/handleForms.php';
 	</style>
 </head>
 <body>
+	
 	<h1>Register here!</h1>
 	<?php if (isset($_SESSION['message'])) { ?>
 		<h1 style="color: red;"><?php echo $_SESSION['message']; ?></h1>
@@ -38,5 +39,6 @@ require_once 'core/handleForms.php';
 			<input type="submit" name="registerUserBtn">
 		</p>
 	</form>
+	<p>You already have an account? You may login <a href="login.php">here</a></p>
 </body>
 </html>
